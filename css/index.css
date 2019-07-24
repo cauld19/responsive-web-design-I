@@ -88,7 +88,6 @@ header {
 header nav a {
 	text-decoration: none;
 	color: LightGray;
-	margin-right: 60px;
 }
 
 
@@ -250,6 +249,7 @@ footer .contact h4 {
 		margin: 0;
 		border-bottom: 1px solid lightgray;
 		text-align: center;
+		padding: 10px;
 	}
 
 	header nav a:first-child{
