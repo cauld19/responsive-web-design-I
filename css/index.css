@@ -74,9 +74,12 @@ h1, h2, h3, h4, h5 {
 
 header {
 	max-width: 876px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .container header nav {
+	width: 600px;
 	display: flex;
 	align-items: center; 
 	justify-content: space-between;
@@ -85,6 +88,12 @@ header {
 header nav a {
 	text-decoration: none;
 	color: LightGray;
+	margin-right: 60px;
+}
+
+
+.logo {
+	max-width: 100%;
 }
 
 
@@ -210,11 +219,41 @@ footer .contact h4 {
 	.cta img {
 		display: none;
 	}
+
+	header {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.container header nav {
+		max-width: 100%;
+	}
+
+	.logo {
+		align-content: center;
+	}
+
+	.cta button {
+		margin: 10px 0 40px 0;
+	}
   }
 
+
   @media (max-width: 500px) {
-	.container header nav {
-		display: flex;
+	header nav {
 		flex-direction: column;
 	}
+
+	header nav a {
+		width: 100%;
+		margin: 0;
+		border-bottom: 1px solid lightgray;
+		text-align: center;
+	}
+
+	header nav a:first-child{
+		border-top: 1px solid lightgray;
+	}
 }
+
