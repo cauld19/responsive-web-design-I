@@ -220,7 +220,6 @@ footer .contact h4 {
 	}
 
 	header {
-		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
 	}
