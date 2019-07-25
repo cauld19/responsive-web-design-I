@@ -231,6 +231,7 @@ footer .contact h4 {
 
 	.logo {
 		align-content: center;
+		margin-bottom: 10px;
 	}
 
 	.cta button {
@@ -254,6 +255,26 @@ footer .contact h4 {
 
 	header nav a:first-child{
 		border-top: 1px solid lightgray;
+	}
+
+	.main-content {
+		flex-direction: column;
+	}
+
+	.bottom-content {
+		flex-direction: column;
+	}
+
+	.about {
+		margin-top: 40px;
+	}
+
+	.product {
+		margin-top: 40px;
+	}
+
+	.vision {
+		margin-top: 40px;
 	}
 }
 
