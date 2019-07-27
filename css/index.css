@@ -68,12 +68,11 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	max-width: 1000px;
-	margin: auto;
+	margin: 0 auto;
 	padding: 40px 1.25%;
 }
 
 header {
-	max-width: 876px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -101,7 +100,6 @@ header nav a {
 .cta {
 	margin-top: 40px;
 	border-bottom: 1px solid black;
-	max-width: 876px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -139,8 +137,7 @@ h1 {
 
 /* main content */
 
-.main-content { 
-	max-width: 876px; 
+.main-content {  
 	display: flex;
 	align-items: center;
 	margin-top: 40px;
@@ -161,13 +158,13 @@ h1 {
 }
 
 .middle-img {
-	max-width: 100%;
+	display: block;
+	width: 100%;
 }
 
 /* bottom content */
 
 .bottom-content {
-	max-width: 876px;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 40px;
@@ -198,7 +195,6 @@ h1 {
 .contact {
 	border-top: 1px solid black;
 	text-align: left;
-	max-width: 876px;
 }
 
 footer .contact h4 {
